@@ -12,8 +12,8 @@ const Input = () => {
     
   return (
     <div className='flex justify-center items-center h-screen w-screen bg-transparent'>
-        <div className='text-center flex flex-col items-center mt-[15vh]'>
-            <h1 className='text-6xl font-bold'>So Take your Birthdate in your Mind</h1>
+        <div className='text-center flex flex-col items-center mt-[25vh]'>
+            <h1 className='p-5 text-4xl md:text-6xl font-bold'>So Take your Birthdate in your Mind</h1>
             <img className='h-30 m-5' src="https://i.pinimg.com/originals/57/c3/bf/57c3bf14e0aaeb4ccd6c6f9d76b2198b.gif" alt="" />
              <div className="btnns">
                 <Link to="/">

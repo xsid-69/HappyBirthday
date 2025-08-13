@@ -40,7 +40,7 @@ const Output = () => {
     <>
     <div className='flex justify-center items-center h-screen w-screen bg-transparent'>
         <div className='text-center flex flex-col items-center mt-[5vh]'>
-            <h1 className='text-4xl md:text-6xl font-bold'>So your Birthdate is........</h1>
+            <h1 className='p-5 text-4xl md:text-6xl font-bold'>So your Birthdate is........</h1>
             <img className='m-5 h-30' src="https://i.pinimg.com/originals/1b/38/9b/1b389b8b8156f2024035993de51963dd.gif" alt="" />
             <h1 className='text-5xl md:text-8xl font-extrabold m-5 md:m-10'> {isBirthday ? "Wish you a very Happy Birthday" : `${date} ${monthName}`}</h1>
              <div className="btnns">

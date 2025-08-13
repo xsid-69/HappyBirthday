@@ -10,11 +10,11 @@ const Intro = () => {
   };
 
   return (
-    <div className='flex justify-center items-center h-screen w-screen bg-gray-transparent'>
-        <div className='text-center flex flex-col items-center mt-[5vh]'>
+    <div className='flex justify-center items-center h-screen w-screen bg-transparent overflow-hidden'>
+        <div className='text-center h-[90vh] flex flex-col items-center mt-[10vh]'>
            
-          <img className='h-50 m-5' src=" https://i.pinimg.com/originals/40/d1/28/40d128555061dab2ae4460786193dbec.gif" alt="" />
-            <h1 className='text-5xl md:text-7xl font-bold'>I will guess your BirthDate !</h1>
+          <img className='h-40 ' src=" https://i.pinimg.com/originals/40/d1/28/40d128555061dab2ae4460786193dbec.gif" alt="" />
+            <h1 className='text-4xl md:text-6xl font-bold'>I will guess your BirthDate !</h1>
             
               <Link to="/input" onClick={playSound}>
                 <button class="button type3">

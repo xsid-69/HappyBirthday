@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  overflow: hidden;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 0.875rem; /* Default to sm for smaller screens */
@@ -18,7 +22,7 @@
   border-radius: 30px;
   color: #333;
   transition: all 0.5s ease-in-out;
-  margin: 30px;
+  margin: 10px;
 }
  .type2 {
   height: 50px;
