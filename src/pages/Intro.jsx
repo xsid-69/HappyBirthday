@@ -10,7 +10,7 @@ const Intro = () => {
   };
 
   return (
-    <div className='flex justify-center items-center h-screen w-screen bg-transparent overflow-hidden'>
+    <div className='p-5 flex justify-center items-center h-screen w-screen bg-transparent overflow-hidden'>
         <div className='text-center h-[90vh] flex flex-col items-center mt-[10vh]'>
            
           <img className='h-40 ' src=" https://i.pinimg.com/originals/40/d1/28/40d128555061dab2ae4460786193dbec.gif" alt="" />
@@ -39,7 +39,7 @@ const Intro = () => {
             </div>
           
         </div>
-        <div className='absolute bottom-5 right-5'><Button/></div>
+        <div className='absolute bottom-10 right-5'><Button/></div>
     </div>
   )
 }
