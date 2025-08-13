@@ -173,7 +173,7 @@ export default function Carousel({
               className="relative shrink-0 flex flex-col items-center justify-center p-8bg-linear-to-t bg-transparent rounded-3xl overflow-hidden cursor-grab active:cursor-grabbing"
               style={{
                 width: itemWidth,
-                height: "250px",
+                height: "150px",
                 rotateY: rotateY,
               }}
               transition={effectiveTransition}

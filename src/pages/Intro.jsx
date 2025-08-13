@@ -23,12 +23,15 @@ const Intro = () => {
                     </span>
                 </button>
               </Link>
+              <div className='flex justify-center items-center m-5 font-thin'>
+                <h2 className='text-white'>made by~ </h2> <a href="https://www.instagram.com/siddhant.w_69?igsh=b3h0Z3RodWdhaGY0"><span className='text-purple-500'>xsid</span></a>
+              </div>
             {/* <button className='bg-amber-600 p-5'> Ready</button>    */}
-        <div style={{ height: '300px', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ height: '180px', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Carousel
                 baseWidth={300}
                 autoplay={false}
-                autoplayDelay={3000}
+                autoplayDelay={5000}
                 pauseOnHover={true}
                 loop={false}
                 round={false}

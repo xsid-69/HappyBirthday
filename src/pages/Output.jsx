@@ -54,6 +54,9 @@ const Output = () => {
                  <span class="btn-txt">Correct!</span>
                 </button>
               </Link>
+              <div className='flex justify-center items-center m-5 font-thin'>
+                <h2 className='text-white'>made by~ </h2> <a href="https://www.instagram.com/siddhant.w_69?igsh=b3h0Z3RodWdhaGY0"><span className='text-purple-500'>xsid</span></a>
+              </div>
              </div>
            
         
