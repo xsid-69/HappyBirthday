@@ -106,12 +106,14 @@ const StyledWrapper = styled.div`
   }
 
   .Btn:hover {
+    text-align:center;
     width: 110px;
     transition-duration: 0.4s;
     border-radius: 30px;
   }
 
   .Btn:hover .text {
+    text:center;
     opacity: 1;
     transition-duration: 0.4s;
   }
@@ -122,6 +124,7 @@ const StyledWrapper = styled.div`
   }
 
   .text {
+  
     position: absolute;
     color: rgb(255, 255, 255);
     width: 120px;

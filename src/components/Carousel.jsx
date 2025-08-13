@@ -170,7 +170,7 @@ export default function Carousel({
           return (
             <motion.div
               key={index}
-              className="relative shrink-0 flex flex-col items-center justify-center p-8bg-linear-to-t bg-sky-600 rounded-3xl overflow-hidden cursor-grab active:cursor-grabbing"
+              className="relative shrink-0 flex flex-col items-center justify-center p-8bg-linear-to-t bg-transparent rounded-3xl overflow-hidden cursor-grab active:cursor-grabbing"
               style={{
                 width: itemWidth,
                 height: "250px",
@@ -179,7 +179,7 @@ export default function Carousel({
               transition={effectiveTransition}
             >
               <div className="mb-4">
-                <span className="flex h-16 w-16 items-center justify-center rounded-full bg-black">
+                <span className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-900">
                   {item.icon &&
                     <item.icon.type
                       {...item.icon.props}
@@ -188,10 +188,10 @@ export default function Carousel({
                 </span>
               </div>
               <div className="text-center">
-                <div className="mb-2 text-xl font-black text-black">
+                <div className="mb-2 text-xl font-black text-white">
                   {item.title}
                 </div>
-                <p className="text-sm text-black">{item.description}</p>
+                <p className="text-sm text-white">{item.description}</p>
               </div>
             </motion.div>
           );

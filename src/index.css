@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
-/* From Uiverse.io by Gaurav-WebDev */ 
+@media (max-width: 768px) {
+  body {
+    font-size: 0.875rem; /* Default to sm for smaller screens */
+  }
+}
+
+
 .button {
   height: 50px;
   width: 200px;
@@ -21,6 +27,19 @@
   background-color: rgb(6, 148, 70);
   cursor: pointer;
   border: 2px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+  margin: 30px;
+}
+.type3 {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: rgb(46, 84, 254);
+  cursor: pointer;
+  border: 2px solid #362e2e;
   overflow: hidden;
   border-radius: 30px;
   color: #333;
@@ -48,11 +67,15 @@
 }
 
 .button:hover {
-  box-shadow: 1px 1px 200px #252525;
+  box-shadow: 1px 1px 50px #525252;
   color: #fff;
   border: none;
 }
-
+.tyoe3:hover {
+  box-shadow: 1px 1px 200px #ffffff;
+  color: #fff;
+  border: none;
+}
 .type1:hover::after  ,.type1:hover::after{
   visibility: visible;
   transform: scale(100) translateX(2px);
