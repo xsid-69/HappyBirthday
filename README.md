@@ -39,7 +39,7 @@
 
 ## 🚀 Live Demo
 
-👉 ** Netlify**: [Birthdate Guesser Live](https://guesshbd.netlify.app/form)  
+👉 ** Netlify**: [Birthdate Guesser Live](https://guesshbd.netlify.app/)  
 
 ---
 
