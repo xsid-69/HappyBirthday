@@ -39,7 +39,7 @@ const Intro = () => {
             </div>
           
         </div>
-        <div className='absolute bottom-10 right-5'><Button/></div>
+        <div className='absolute bottom-10 right-5 md:bottom-50'><Button/></div>
     </div>
   )
 }
